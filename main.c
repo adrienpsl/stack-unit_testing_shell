@@ -49,7 +49,7 @@ int main()
 		while (strcmp(buff, "\n"))
 		{
 			bzero(buff, 2);
-			read(STDIN_FILENO, buff, 2);
+			read(STDIN_FILENO, buff, 1);
 			write(1, buff, 1);
 			line = join(line, buff);
 		}
