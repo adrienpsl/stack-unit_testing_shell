@@ -33,9 +33,6 @@ void ms_activate_raw_mode(struct termios *t)
 	tcsetattr(STDIN_FILENO, TCSANOW, &termios);
 }
 
-/*
- * This function will
- * */
 int main()
 {
 	struct termios termios;
