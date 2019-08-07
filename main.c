@@ -18,7 +18,7 @@ char *join(const char *s1, const char *s2)
 }
 
 /*
- * It activates the free mode and saving
+ * It activates the raw mode and saving
  * the old configuration in g_ms.terminos
 */
 void ms_activate_raw_mode(struct termios *t)
